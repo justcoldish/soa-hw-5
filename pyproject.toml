@@ -1,0 +1,12 @@
+[project]
+name = "soa-hw-5"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.165.0",
+    "uvicorn==0.54.0",
+    "confluent-kafka[avro,schemaregistry]==2.16.2",
+    "clickhouse-connect==1.13.0",
+    "psycopg[binary]==3.3.9",
+    "boto3==1.44.11",
+]
